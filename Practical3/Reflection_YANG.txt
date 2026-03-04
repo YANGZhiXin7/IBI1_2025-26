@@ -1,0 +1,12 @@
+There is my Reflection:
+My name is YANG Zhixin. I met many difficulties, but finally fixed them.
+For example, I don't know how to change the content of a text using a UNIX-like system,
+but now I know "nano". What's more, I was confused about how to escape from the Vim text editor
+when I used revert and log.
+Overall, I think it is an amazing class for me, I love IBI1!!!
+
+BUT I HAVE A QUESTION
+I entered git add Introductions.txt in the path Practical3,
+but the local repository was created in IBI1_2025-26.
+Why was I still able to add it to the correct repository?
+What if I set a new repo in Practical3?

@@ -2,3 +2,8 @@ Hello, my name is Rob.
 I like drinking tea and eating chocolate biscuits.
 I am enjoying teaching IBI1 in person again 
 I am happy that I can push my repo from Visual Studio Code to GitHub
+
+Hello ROb, my name is YANG Zhixin.
+I love drinking coffee, and I love eating chocolate biscuits too!
+I like your teaching in IBI1 and I enjoy it!
+Thank U very much.

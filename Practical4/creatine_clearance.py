@@ -1,0 +1,30 @@
+# Input age, weight, gender, and creatine concentration
+# check if gender is Female
+#          weight = weight * 0.85
+# check if age is not between 0 and 100
+#           print Please enter your age again
+# check if weight is not between 20 and 80
+#           print Please enter your age again
+# check if gender is not male or female
+#           print Please enter your gender again
+# check if creatine concentration is not between 0 and 100
+#           print Please enter your age again
+# Calculate the CrCl
+# print CrCl
+age = int(input("Please enter your age(in years): "))
+weight = float(input("Please enter your weight(in kg): "))
+gender = input("Please enter your gender(M/F):")
+if gender == "F":
+    weight *= 0.85
+creatine_concentration = float(input("Please enter your creatine concentration, Cr, in height (in µmol/l):"))
+if age > 100 or age < 0:
+    print("Please enter your age again")
+elif weight > 80 or weight < 20:
+    print("Please enter your weight again")
+elif creatine_concentration > 100 or creatine_concentration < 0:
+    print("Please enter your creatine concentration again")
+elif gender != "M" and gender != "F":
+    print("Please enter your gender again")
+else:
+    CrCl = (140 - age)* weight // (72 * creatine_concentration)
+print(f"Your CrCl is {CrCl}")

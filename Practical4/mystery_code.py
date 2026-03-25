@@ -12,12 +12,12 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
-total_rand = 0
-progress=0
-while progress<=10:
-	progress+=1
-	n = randint(1,10)
-	total_rand+=n
+total_rand = 0 # This variable will store the total sum of the random numbers generated.
+progress=0 # This variable counts how many random numbers have been generated.
+while progress<=10: # The loop will continue until 10 random numbers have been generated
+	progress+=1 # count the number of random numbers generated
+	n = randint(1,10) # Generate a random number between 1 and 10
+	total_rand+=n # Add the generated random number to the total sum.
 
-print(total_rand)
+print(total_rand) 
 

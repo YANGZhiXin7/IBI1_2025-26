@@ -4,13 +4,11 @@ c = 5.55 # The population of Scottish population in 2024
 d = b-c # The change between 2004 and 2014
 e = c-b # The change between 2014 and 2024
 if d == e:
-    print("e=d")
-# check if d=e
+    print("e=d") # check if d=e
 if d > e:
     print("d > e")
 else:
-    print("d < e")
-# check if d>e or d<e The out come is d < e
+    print("d < e") # check if d>e or d<e The out come is d < e
 f = d//a
 g = e//b
 if f > g:

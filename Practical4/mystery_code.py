@@ -1,7 +1,7 @@
 # What does this piece of code do?
-# Answer: This code simulates drawing 10 random numbers between 1 and 10 (inclusive) and sums them up. 
-# The variable “total_rand” keeps track of the sum of the drawn numbers, while the variable “progress” counts how many numbers have been drawn.
-# After the loop completes, it prints the total sum of the drawn random numbers.
+# Answer: This code simulates generating 10 random numbers between 1 and 10 (inclusive) and calculates their total sum.
+# The variable total_rand stores the cumulative sum of the generated random numbers, while the variable progress counts how many numbers have been generated.
+# Once the loop finishes executing, the program prints the total sum of all the random numbers.
 
 # Import libraries
 # randint allows drawing a random number,

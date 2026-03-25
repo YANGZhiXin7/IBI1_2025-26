@@ -10,8 +10,6 @@
 # Calculate the CrCl
 # print CrCl
 
-
-# input and check if the input is valid, if not, print the error message and re-input
 age = int(input("Please enter your age(in years): ")) # input age
 while age > 100 or age < 0:
     print("Your age should be between 0 and 100")

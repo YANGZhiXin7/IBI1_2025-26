@@ -1,7 +1,7 @@
 # the population data for 2020 and 2024
 countries = ["UK", "China", "Italy", "Brazil", "USA"]
-population_2020 = [66.7, 1426, 59.4, 208.6, 331.6]
-population_2024 = [69.2, 1410, 58.9, 212.0, 340.1]
+pop_2020 = [66.7, 1426, 59.4, 208.6, 331.6]
+pop_2024 = [69.2, 1410, 58.9, 212.0, 340.1]
 
 # calculate the percentage change in population for each country from 2020 to 2024
 percent_changes = []

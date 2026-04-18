@@ -1,0 +1,6 @@
+This practical about building stochastic SIR models was both challenging and fun. The basic SIR.py was straightforward once I understood how to use random functions to simulate infection and recovery.
+I enjoyed seeing the curves change each time I ran the code, which made the stochastic nature really clear.
+Adding vaccination to make SIR_vaccination.py helped me understand herd immunity in a hands‑on way. But stats here I felt a little difficult to write the code.
+The spatial 2D model was the hardest part, especially handling neighbours and array operations and I really spend long time searching it and understanding it.
+Overall, I learned how to turn real‑world problems into simple computational models.
+This practical made me more confident with Python for simulations and showed me how useful coding is for understanding biology.

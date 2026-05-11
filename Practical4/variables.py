@@ -1,7 +1,7 @@
 a = 5.08 # The population of Scottish population in 2004
 b = 5.33 # The population of Scottish population in 2014
 c = 5.55 # The population of Scottish population in 2024
-d = b-c # The change between 2004 and 2014
+d = b-a # The change between 2004 and 2014
 e = c-b # The change between 2014 and 2024
 if d == e:
     print("e=d") # check if d=e
@@ -41,6 +41,6 @@ print(F) # Outcome: False
 # So The truth table should be that:
 # X        Y       X or Y (W)
 # True.   Flase.      True. 
-# True.   True.       Ture. 
+# True.   True.       True. 
 # False   True.       True
 # False   False.      False

@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Importing the .csv file
-os.chdir("/Users/yzxinli/Desktop/IBI1/IBI1_2025-26/Practical10")
 dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv")
 
 # Showing the third and forth columns of the data frame for the first ten rows

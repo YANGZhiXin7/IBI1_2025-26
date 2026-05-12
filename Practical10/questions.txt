@@ -1,5 +1,5 @@
 Question: What country or countries have recorded a DALYs less than 18,000 in a single year?
-Starting line in dalys.py: Line 48
+Starting line in dalys.py: Line 61
 
 Discussion of results:
 1. Several countries have recorded DALYs rates below 18,000 in at least one year.
